@@ -27,5 +27,5 @@ function displayError(message) {
 
   weatherCard.textContent = "";
   weatherCard.style.display = "flex";
-  weatherCard.appendChild(errorDisplay);
+  weatherCard.appendChild(errorDisplay).style.fontWeight = "bold";
 }
