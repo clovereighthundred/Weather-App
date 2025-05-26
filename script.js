@@ -34,6 +34,7 @@ async function getWeatherData(city) {
 }
 
 function displayWeatherInfo(data) {
+  // Fetch weatherData variables from OpenweatherMap API
   const {
     name: city,
     main: { temp, humidity },
